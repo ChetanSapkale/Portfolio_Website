@@ -1,0 +1,150 @@
+/* Base Theme Defaults (dark by default) */
+body {
+  background-color: #0f0f0f;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.navbar {
+  background-color: #1f1f1f;
+  transition: background-color 0.3s ease;
+}
+
+.hero-section {
+  min-height: 100vh;
+  padding-top: 120px;
+  background-color: #0f0f0f;
+  color: #fff;
+}
+
+.profile-img {
+  max-width: 300px;
+  width: 100%;
+  border: 5px solid #007bff;
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+}
+
+.stat-box {
+  background-color: #1e1e1e;
+  padding: 20px 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+.stat-box h3 {
+  color: #007bff;
+}
+
+body.dark-theme {
+  background-color: #121212;
+  color: white;
+}
+
+body.dark-theme .navbar {
+  background-color: #1f1f1f;
+}
+
+.nav-link {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.nav-link.active {
+  color: #0d6efd !important; /* Bootstrap Primary */
+  text-decoration: underline; /* optional */
+}
+
+.nav-link:hover {
+  color: #0d6efd !important;
+}
+
+body.light-theme {
+  background-color: #f8f9fa;
+  color: black;
+}
+
+body.light-theme .navbar {
+  background-color: #ffffff;
+}
+
+body.light-theme .text{
+  color: black !important;
+}
+
+body.light-theme .lead{
+  color: black !important;
+}
+  
+body.light-theme .nav-link {
+  color: black !important;
+}
+
+body.light-theme .nav-link.active {
+  color: #0d6efd !important;
+  text-decoration: underline;
+}
+
+body.light-theme .hero-section {
+  background-color: #ffffff;
+  color: #212529;
+}
+
+body.light-theme .stat-box {
+  background-color: #e9ecef;
+  color: #212529;
+}
+
+body.light-theme .profile-img {
+  border-color: #0d6efd;
+  box-shadow: 0 0 15px rgba(13, 110, 253, 0.3);
+}
+
+.icon-box:hover i {
+  color: #0d6efd;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+
+  .hero-section .row {
+    flex-direction: column-reverse;
+  }
+
+  .profile-img {
+    margin-bottom: 30px;
+    max-width: 250px;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+
+  .social-links .icon-box {
+    margin: 0 auto;
+  }
+
+  .stat-box {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .stat-box h3 {
+    font-size: 20px;
+  }
+
+  .stat-box p {
+    font-size: 14px;
+  }
+
+  h1.display-4 {
+    font-size: 28px;
+  }
+
+  .lead {
+    font-size: 16px;
+  }
+}
