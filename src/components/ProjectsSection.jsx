@@ -20,7 +20,7 @@ const projects = [
     title: "MSICE Pharma",
     description: "MSICE Pharma is a responsive single-page website built with HTML5 and CSS3. It showcases clean design, mobile-first layout, and cross-device compatibility, highlighting strong fundamentals in static web development.",
     techStack: "HTML, CSS",
-    image: MSICS, git add
+    image: MSICS,
     liveLink: "https://msics-html-css-website.vercel.app/",
     codeLink: "https://github.com/ChetanSapkale/MSICS_HtmlCss_Website",
   },
