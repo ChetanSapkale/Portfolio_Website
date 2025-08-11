@@ -6,12 +6,13 @@ import Brookstone from "../assets/Brookstone Landing Page.png";
 import Cuda from "../assets/Cuda-Landing Page.png";
 import Flipkart from "../assets/Flipkart-Landing Page.png"
 import Lenskart from "../assets/Lenskart Landing Page.png";
+import Herschel from "../assets/Herschel Web Landing Page.png";
 
 const projects = [
   {
     title: "Lenskart Web",
     description: "Lenskart Web is a responsive e-commerce website clone built with HTML, CSS, and JavaScript. It features a clean design, user-friendly navigation, and showcases products effectively, demonstrating strong web development skills.",
-    techStack: "HTML/CSS, JavaScript, React",
+    techStack: "HTML/CSS, JavaScript, React.js",
     image: Lenskart,
     liveLink: "https://lenskart-clone-fe.vercel.app/",
     codeLink: "https://github.com/ChetanSapkale/Lenskart_clone.fe",
@@ -33,12 +34,12 @@ const projects = [
     codeLink: "https://github.com/ChetanSapkale/Brookstone_Clone_web",
   },
   {
-    title: "Project title 4",
-    description: "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
-    techStack: "HTML/CSS, JavaScript",
-    image: "https://via.placeholder.com/400x200/FF69B4/000000?text=Project+4",
-    liveLink: "#",
-    codeLink: "#",
+    title: "Herschel E-commerce Website",
+    description: "This is a e-commerce website clone. It was built using HTML/CSS, React-Bootstrap, JavaScript, and React.js. Built to practice web development skills and added features to showcase my foundation and knowledge in web development.",
+    techStack: "HTML/CSS, React-Bootstrap, JavaScript, React.js",
+    image: Herschel,
+    liveLink: "https://herschel-clone-fe.vercel.app/",
+    codeLink: "https://github.com/ChetanSapkale/Herschel_Clone.fe",
   },
   {
     title: "Cuda Portfolio Website",
